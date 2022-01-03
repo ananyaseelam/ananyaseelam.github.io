@@ -1,10 +1,12 @@
 import React from 'react';
 import NavBar from '../components/NavBar/NavBar';
 const Projects = () => (
-  <div className="container">
+  <div>
     <NavBar />
-    <h2>Projects</h2>
-    This example shows how to use React Router!
+    <div className="container-projects">
+      <h2>Projects</h2>
+      This example shows how to use React Router!
+    </div>
   </div>
 );
 

@@ -19,9 +19,9 @@ const NavBar = () => {
         value={value}
         onChange={handleChange}
       >
-        <Link to="/" className='page-link'> <Tab value="Home" label="home" /> </Link>
-        <Link to="/about" className='page-link'> <Tab value="About Me" label="about" /> </Link>
-        <Link to="/projects" className='page-link'> <Tab value="Projects" label="projects" /> </Link>
+        <Link to="/" > <Tab value="Home" label="home" className="page-link" /> </Link>
+        <Link to="/about" > <Tab value="About Me" label="about" className="page-link" /> </Link>
+        <Link to="/projects" > <Tab value="Projects" label="projects" className="page-link" /> </Link>
       </Tabs >
     </div >
 

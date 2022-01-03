@@ -1,7 +1,30 @@
-.container {
-  margin: 1%;
+.container-home {
+  height: 100vw;
+  color: white;
+  /* background: linear-gradient(90deg, #DC9E82 50%, white 50%); */
+  background-color: #994636; 
 }
 
-.page-content{
+.container-about{
+  
+}
+
+.container-projects{
+
+}
+
+.name{
+  font-size: 50px;
+}
+
+.bio{
+  font-size: 20px;
+}
+
+.content-container{
   margin: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* width: 40%; */
 }
