@@ -6,7 +6,7 @@ const Projects = () => (
   <div className="container-projects">
     <NavBar />
     <div className="content-container">
-      <h2>Projects</h2>
+      <p className="header"> Projects </p>
       This example shows how to use React Router!
     </div>
   </div>

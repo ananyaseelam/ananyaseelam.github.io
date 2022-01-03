@@ -7,8 +7,7 @@ const About = () => (
   <div className="container-about">
     <NavBar />
     <div className="content-container">
-      <h2>About</h2>
-      About
+      <p className="header">About</p>
     </div>
   </div>
 );
