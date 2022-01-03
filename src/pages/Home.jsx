@@ -17,9 +17,12 @@ const Home = () => {
           I am an engineering student at Cornell University majoring in Computer Science and minoring in Inequality Studies!
         </p>
         <img src={profile} className="profile-pic" />
-        <a href={require("./resume.pdf")} target="_blank">
-          <Button className="resume-btn"> <p>Resume</p> </Button>
-        </a>
+        <div className='resume-block'>
+          <p className='text'>Check out my resume! </p>
+          <a href={require("./resume.pdf")} target="_blank">
+            <Button className="resume-btn"> <p>Resume</p> </Button>
+          </a>
+        </div>
 
       </div>
     </div>
