@@ -1,10 +1,15 @@
 import React from 'react';
 import NavBar from '../components/NavBar/NavBar';
+import './Page.css';
+
+
 const About = () => (
   <div className="container-about">
     <NavBar />
-    <h2>About</h2>
-    This example shows how to use React Router!
+    <div className="content-container">
+      <h2>About</h2>
+      About
+    </div>
   </div>
 );
 

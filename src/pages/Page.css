@@ -6,11 +6,17 @@
 }
 
 .container-about{
-  
+  height: 100vw;
+  color: white;
+  /* background: linear-gradient(90deg, #DC9E82 50%, white 50%); */
+  background-color: #414770; 
 }
 
 .container-projects{
-
+  height: 100vw;
+  color: white;
+  /* background: linear-gradient(90deg, #DC9E82 50%, white 50%); */
+  background-color: #679289; 
 }
 
 .name{

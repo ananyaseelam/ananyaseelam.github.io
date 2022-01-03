@@ -1,9 +1,11 @@
 import React from 'react';
 import NavBar from '../components/NavBar/NavBar';
+import './Page.css';
+
 const Projects = () => (
-  <div>
+  <div className="container-projects">
     <NavBar />
-    <div className="container-projects">
+    <div className="content-container">
       <h2>Projects</h2>
       This example shows how to use React Router!
     </div>
