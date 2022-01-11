@@ -7,10 +7,18 @@
   align-items: center;
 }
 
-.page-link  {
+.page-link{
   color: black !important;
   font-weight: bold !important;
-  text-decoration: none !important; 
-  font-size: 20px !important;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  font-size: 18px !important;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
 }
+
+.page-link:hover{
+  box-shadow:gray;
+}
+
+a:link {
+  text-decoration: none!important;
+}
+

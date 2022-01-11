@@ -12,16 +12,15 @@ const NavBar = () => {
   };
   return (
     <div className="navcontainer">
-      {/* <Link to="/" className='logo'>
-        <p className="name"> ANANYA </p>
-      </Link> */}
       <Tabs
         value={value}
         onChange={handleChange}
       >
         <Link to="/" > <Tab value="Home" label="home" className="page-link" /> </Link>
         <Link to="/about" > <Tab value="About Me" label="about" className="page-link" /> </Link>
+        <Link to="/experience" > <Tab value="Experience" label="experience" className="page-link" /> </Link>
         <Link to="/projects" > <Tab value="Projects" label="projects" className="page-link" /> </Link>
+        <Link to="/contact" > <Tab value="Contact" label="contact" className="page-link" /> </Link>
       </Tabs >
     </div >
 
