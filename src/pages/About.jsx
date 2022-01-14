@@ -8,6 +8,16 @@ const About = () => (
     <NavBar />
     <div className="content-container">
       <p className="header">About</p>
+      <p className="aboutBody">
+        I was born and raised near Raleigh, North Carolina and currently live in Ithaca, NY.
+      </p>
+      <p className="aboutBody">
+        I got interested in computer science in 9th grade when I joined my high schools Introduction to Computer Science course.
+        I became fascinated by using my interest in math and logic to solve intereting problems in the world.
+      </p>
+      <p className="aboutBody">
+
+      </p>
     </div>
   </div>
 );

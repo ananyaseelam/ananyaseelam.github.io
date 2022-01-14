@@ -8,7 +8,6 @@ import Pdf from './resume.pdf';
 const Home = () => {
 
   return (
-
     <div className="container-home">
       <NavBar />
       <div className="content-container">
@@ -23,7 +22,6 @@ const Home = () => {
             <Button className="resume-btn"> <p>Resume</p> </Button>
           </a>
         </div>
-
       </div>
     </div>
   )
