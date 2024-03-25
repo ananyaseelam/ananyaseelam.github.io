@@ -4,24 +4,20 @@ import './Page.css';
 import profile from './pro-pic.png';
 import Button from '../../node_modules/@mui/material/Button';
 import Pdf from './resume.pdf';
+import "@fontsource/rubik"; // Defaults to weight 400
+import "@fontsource/rubik/400.css"; // Specify weight
+import "@fontsource/rubik/400-italic.css"; // Specify weight and style
 
 const Home = () => {
 
   return (
-    <div className="container-home">
+    <div className="container">
       <NavBar />
       <div className="content-container">
         <p className="name">Ananya Seelam</p>
         <p className='bio'>
-          I am an engineering student at Cornell University majoring in Computer Science and minoring in Inequality Studies!
+          Software engineer passionate about <b> tech for social good </b>
         </p>
-        {/* <img src={profile} className="profile-pic" /> */}
-        {/* <div className='resume-block'>
-          <p className='text'>Check out my resume! </p>
-          <a href={require("./resume.pdf")} target="_blank">
-            <Button className="resume-btn"> <p>Resume</p> </Button>
-          </a>
-        </div> */}
       </div>
     </div>
   )

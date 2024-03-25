@@ -4,7 +4,7 @@ import './Page.css';
 
 
 const Experience = () => (
-  <div className="container-experience">
+  <div className="container">
     <NavBar />
     <div className="content-container">
       <p className="header">Experience</p>

@@ -4,7 +4,7 @@ import './Page.css';
 
 
 const About = () => (
-  <div className="container-about">
+  <div className="container">
     <NavBar />
     <div className="content-container">
       <p className="header">About</p>

@@ -4,7 +4,7 @@ import './Page.css';
 
 
 const Contact = () => (
-  <div className="container-contact">
+  <div className="container">
     <NavBar />
     <div className="content-container">
       <p className="header">Contact</p>
