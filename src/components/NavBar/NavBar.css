@@ -13,7 +13,8 @@
   font-weight: bolder !important;
   font-size: 2vh !important;
   font-family: 'Rubik';
-  margin-left: 1vh;
+  margin-right: 10vh !important;
+  margin-left: 10vh !important;
 }
 
 .page-link:hover{

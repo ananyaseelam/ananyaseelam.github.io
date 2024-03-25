@@ -19,6 +19,12 @@ const About = () => (
 
       </p>
     </div>
+            {/* <div className='resume-block'>
+          <p className='text'>Check out my resume! </p>
+          <a href={require("./resume.pdf")} target="_blank">
+            <Button className="resume-btn"> <p>Resume</p> </Button>
+          </a>
+        </div> */}
   </div>
 );
 
