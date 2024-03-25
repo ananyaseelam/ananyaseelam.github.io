@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.ac386abb.css",
-    "main.js": "/static/js/main.3509cd80.js",
+    "main.css": "/static/css/main.0b9d605a.css",
+    "main.js": "/static/js/main.6988aced.js",
     "static/js/787.94a40162.chunk.js": "/static/js/787.94a40162.chunk.js",
-    "static/media/pro-pic.png": "/static/media/pro-pic.b992978541e2f749f06a.png",
     "static/media/resume.pdf": "/static/media/resume.be21bf28d7c0abae8107.pdf",
+    "static/media/pro-pic.png": "/static/media/pro-pic.705a65edf8112f9bb064.png",
     "static/media/rubik-latin-400-italic.woff": "/static/media/rubik-latin-400-italic.2ac599d76a27669c790d.woff",
     "static/media/rubik-latin-400-normal.woff": "/static/media/rubik-latin-400-normal.870dcb9ca975e7fa06a9.woff",
     "static/media/rubik-arabic-400-italic.woff": "/static/media/rubik-arabic-400-italic.73e5d7ef2f17b9073b3c.woff",
@@ -30,12 +30,12 @@
     "static/media/rubik-hebrew-400-italic.woff2": "/static/media/rubik-hebrew-400-italic.485dcc98976a3936672d.woff2",
     "static/media/rubik-hebrew-400-normal.woff2": "/static/media/rubik-hebrew-400-normal.9f12218709f0b72dbf18.woff2",
     "index.html": "/index.html",
-    "main.ac386abb.css.map": "/static/css/main.ac386abb.css.map",
-    "main.3509cd80.js.map": "/static/js/main.3509cd80.js.map",
+    "main.0b9d605a.css.map": "/static/css/main.0b9d605a.css.map",
+    "main.6988aced.js.map": "/static/js/main.6988aced.js.map",
     "787.94a40162.chunk.js.map": "/static/js/787.94a40162.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac386abb.css",
-    "static/js/main.3509cd80.js"
+    "static/css/main.0b9d605a.css",
+    "static/js/main.6988aced.js"
   ]
 }
