@@ -122,8 +122,8 @@
   /* height:10rem; */
 }
 
-@media (max-width: 100em) {
-  .home-content-container {
+@media (max-width: 70em) {
+  /* .home-content-container {
     margin-top: 5%;
     margin-left: 10%;
     margin-left: 10%;
@@ -138,6 +138,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
+  } */
 }
 
