@@ -18,24 +18,21 @@ const SocialImpact = () => (
         <img src={hack} ></img>
         <div className='experience-overview-text'> 
           <Link to="/hack4impact" > <Tab value="Hack4Impact" label="Hack4Impact @ Cornell" className="experience-overview-link" /> </Link>
-          <p> Worked on the Sustainability team within Google Search to improve customization of results shown during car searches and to show financial incentives and charging information for cars on desktop devices.  </p>
-          <p>C++/Java/Javascript</p>
+          <p> Led a student project team of over 60 students for one year and spent 2.5 years as a developer and technical lead, building software solutions for nonprofits such as Farmworkers Justice and the Earth Law Center. </p>
         </div>
       </div>
       <div className="experience-overview">
         <img src={anabel} ></img>
         <div className='experience-overview-text'> 
-          <Link to="/ibm" > <Tab value="IBM" label="Quantum Computing @ IBM" className="experience-overview-link" /> </Link>
-          <p> Worked on the IBM Quantum Infrastructure team to build a fullstack internal tool that displays high and low severity incidents on microservices that run on IBMs Quantum Computers </p>
-          <p>Vue.js/Node.js/Express.js/Socket.io/PostgreSQ</p>
+          <Link to="/anabels" > <Tab value="Anabels" label="Anabel's Grocery @ Cornell" className="experience-overview-link" /> </Link>
+          <p> Helping run a student-led grocery store to provide affordable and locally sourced food for Ithaca residents.   </p>
         </div>
       </div>
       <div className="experience-overview">
         <img src={wicc}></img>
         <div className='experience-overview-text'> 
-          <Link to="/dell" > <Tab value="Dell" label="Cloud Computing @ Dell" className="experience-overview-link" /> </Link>
-          <p> Worked on Dell's Apex Cloud Controller to build a fullstack internal tool called a Chaos Engine that allows developers to inject failures into the Dell's On-Premise Cloud Control system to see how it responds. </p>
-          <p>MongoDB/Express.js/Angular.js/Node.js</p>
+          <Link to="/wicc" > <Tab value="WICC" label="Women in Computing @ Cornell | Girls Who Code" className="experience-overview-link" /> </Link>
+          <p> Taught middle and high school students coding through Girls Who Code and led campus intiatives to improve inclusion in computing on campus </p>
         </div>
       </div>
     </div>

@@ -2,11 +2,11 @@ import React from 'react';
 import NavBar from '../../components/NavBar/NavBar';
 import '../Page.css';
 
-const Hack = () => (
+const WICC = () => (
   <div className="container">
     <NavBar />
     <div className="content-container">
-    <p className="header"> Hack4Impact </p>
+    <p className="header"> WICC </p>
       <div className="full-experience-wrapper">
         <div className='experience-image'></div>
         <div className="experience-text-wrapper">
@@ -26,4 +26,4 @@ const Hack = () => (
 
 
 
-export default Hack;
+export default WICC;

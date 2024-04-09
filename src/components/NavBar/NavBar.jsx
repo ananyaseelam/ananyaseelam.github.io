@@ -60,6 +60,19 @@ const NavBar = () => {
         <MenuButton variant="plain"> 
         <Link to="/social-impact" > <Tab value="Social Impact" label="Social Impact" className="page-link" /> </Link>
         </MenuButton > 
+        <Menu MenuListProps={{
+            disablePadding: true
+            }}>
+            <MenuItem>
+            <Link to="/hack4impact" > <Tab value="Hack4Impact" label="Hack4Impact" className="page-link" /> </Link>
+            </MenuItem>
+            <MenuItem>
+            <Link to="/anabels" > <Tab value="Anabels Grocery" label="Anabels Grocery" className="page-link" /> </Link>
+            </MenuItem>
+            <MenuItem>
+            <Link to="/wicc" > <Tab value="WICC" label="WICC" className="page-link" /> </Link>
+            </MenuItem>
+          </Menu>
         </Dropdown>
         <Dropdown >
         <MenuButton variant="plain"> 

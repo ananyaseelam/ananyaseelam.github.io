@@ -8,6 +8,9 @@ import Research from "./pages/Research";
 import Google from "./pages/Experiences/Google";
 import IBM from "./pages/Experiences/IBM";
 import Dell from "./pages/Experiences/Dell";
+import Hack from './pages/SocialImpact/Hack';
+import Anabels from './pages/SocialImpact/Anabels';
+import WICC from './pages/SocialImpact/WICC';
 
 export default function App() {
   return (
@@ -21,6 +24,11 @@ export default function App() {
         <Route path="/google" index element={<Google />} />
         <Route path="/ibm" index element={<IBM />} />
         <Route path="/dell" index element={<Dell />} />
+        <Route path="/hack4impact" index element={<Hack />} />
+        <Route path="/anabels" index element={<Anabels />} />
+        <Route path="/wicc" index element={<WICC />} />
+
+        
       </Routes>
     </BrowserRouter>
   );
