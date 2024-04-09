@@ -1,7 +1,7 @@
 .full-experience-wrapper{
   display:flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .experience-text-wrapper{
@@ -9,6 +9,8 @@
   flex-direction:column;
   width:50%;
   height:50%;
+  padding-right:5%;
+  padding-bottom:5%;
 }
 
 .experience-image{

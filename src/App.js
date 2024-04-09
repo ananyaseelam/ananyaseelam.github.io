@@ -23,8 +23,6 @@ export default function App() {
         <Route path="/google" index element={<Google />} />
         <Route path="/ibm" index element={<IBM />} />
         <Route path="/dell" index element={<Dell />} />
-
-
       </Routes>
     </BrowserRouter>
   );
