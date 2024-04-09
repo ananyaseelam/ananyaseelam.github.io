@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.0b9d605a.css",
-    "main.js": "/static/js/main.6988aced.js",
+    "main.css": "/static/css/main.b7717bbd.css",
+    "main.js": "/static/js/main.247d35ab.js",
     "static/js/787.94a40162.chunk.js": "/static/js/787.94a40162.chunk.js",
     "static/media/resume.pdf": "/static/media/resume.be21bf28d7c0abae8107.pdf",
+    "static/media/dell.png": "/static/media/dell.37c34779ac0f098306b2.png",
     "static/media/pro-pic.png": "/static/media/pro-pic.705a65edf8112f9bb064.png",
     "static/media/rubik-latin-400-italic.woff": "/static/media/rubik-latin-400-italic.2ac599d76a27669c790d.woff",
     "static/media/rubik-latin-400-normal.woff": "/static/media/rubik-latin-400-normal.870dcb9ca975e7fa06a9.woff",
     "static/media/rubik-arabic-400-italic.woff": "/static/media/rubik-arabic-400-italic.73e5d7ef2f17b9073b3c.woff",
     "static/media/rubik-arabic-400-normal.woff": "/static/media/rubik-arabic-400-normal.9b7e86b9f74ba1c2e5a6.woff",
+    "static/media/google.png": "/static/media/google.2fb481f524954600a01b.png",
     "static/media/rubik-latin-400-italic.woff2": "/static/media/rubik-latin-400-italic.693f2bb91f712d73f05b.woff2",
     "static/media/rubik-latin-400-normal.woff2": "/static/media/rubik-latin-400-normal.5903a23647de7c1c373f.woff2",
     "static/media/rubik-arabic-400-italic.woff2": "/static/media/rubik-arabic-400-italic.c1e55410613913f0fe85.woff2",
     "static/media/rubik-arabic-400-normal.woff2": "/static/media/rubik-arabic-400-normal.fb7a9eb9da73dfe4012d.woff2",
+    "static/media/ibm.png": "/static/media/ibm.3eeed752e14d4e22a4dc.png",
     "static/media/rubik-latin-ext-400-italic.woff": "/static/media/rubik-latin-ext-400-italic.daae54c45816d997eb17.woff",
     "static/media/rubik-latin-ext-400-normal.woff": "/static/media/rubik-latin-ext-400-normal.b22669ae614939bed8f4.woff",
     "static/media/rubik-latin-ext-400-italic.woff2": "/static/media/rubik-latin-ext-400-italic.9d418e8b264d43f170e8.woff2",
@@ -30,12 +33,12 @@
     "static/media/rubik-hebrew-400-italic.woff2": "/static/media/rubik-hebrew-400-italic.485dcc98976a3936672d.woff2",
     "static/media/rubik-hebrew-400-normal.woff2": "/static/media/rubik-hebrew-400-normal.9f12218709f0b72dbf18.woff2",
     "index.html": "/index.html",
-    "main.0b9d605a.css.map": "/static/css/main.0b9d605a.css.map",
-    "main.6988aced.js.map": "/static/js/main.6988aced.js.map",
+    "main.b7717bbd.css.map": "/static/css/main.b7717bbd.css.map",
+    "main.247d35ab.js.map": "/static/js/main.247d35ab.js.map",
     "787.94a40162.chunk.js.map": "/static/js/787.94a40162.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b9d605a.css",
-    "static/js/main.6988aced.js"
+    "static/css/main.b7717bbd.css",
+    "static/js/main.247d35ab.js"
   ]
 }
