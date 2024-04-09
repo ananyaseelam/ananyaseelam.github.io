@@ -9,8 +9,6 @@ import Google from "./pages/Experiences/Google";
 import IBM from "./pages/Experiences/IBM";
 import Dell from "./pages/Experiences/Dell";
 
-
-
 export default function App() {
   return (
     <BrowserRouter>

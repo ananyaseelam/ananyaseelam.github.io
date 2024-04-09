@@ -148,6 +148,16 @@
   
 }
 
+.resume-body{
+  padding-bottom: 40%;
+  display: flex;
+  font-size: 24px;
+  font-family:'Rubik';
+  justify-content: center !important;
+  align-items: center !important;
+  justify-self: center;
+}
+
 @media (max-width: 70em) {
   /* .home-content-container {
     margin-top: 5%;

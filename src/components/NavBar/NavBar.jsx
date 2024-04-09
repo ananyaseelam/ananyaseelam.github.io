@@ -39,31 +39,31 @@ const NavBar = () => {
             disablePadding: true
             }}>
             <MenuItem>
-            <a href="/google" > <Tab value="Google" label="Google" className="page-link" /> </a>
+            <Link to="/google" > <Tab value="Google" label="Google" className="page-link" /> </Link>
             </MenuItem>
             <MenuItem>
-            <a href="/ibm" > <Tab value="IBM" label="IBM" className="page-link" /> </a>
+            <Link to="/ibm" > <Tab value="IBM" label="IBM" className="page-link" /> </Link>
             </MenuItem>
             <MenuItem>
-            <a href="/dell" > <Tab value="Dell" label="Dell" className="page-link" /> </a>
+            <Link to="/dell" > <Tab value="Dell" label="Dell" className="page-link" /> </Link>
             </MenuItem>
           </Menu>
         </Dropdown>
         {/* <MyDropdown></MyDropdown> */}
         <Dropdown >
         <MenuButton variant="plain"> 
-        <a href="/research" > <Tab value="Research" label="research" className="page-link" /> </a>
+        <Link to="/research" > <Tab value="Research" label="research" className="page-link" /> </Link>
         </MenuButton > 
         </Dropdown>
         
         <Dropdown >
         <MenuButton variant="plain"> 
-        <a href="/social-impact" > <Tab value="Social Impact" label="Social Impact" className="page-link" /> </a>
+        <Link to="/social-impact" > <Tab value="Social Impact" label="Social Impact" className="page-link" /> </Link>
         </MenuButton > 
         </Dropdown>
         <Dropdown >
         <MenuButton variant="plain"> 
-        <a href="/about" > <Tab value="About Me" label="about" className="page-link" /> </a>
+        <Link to="/about" > <Tab value="About Me" label="about" className="page-link" /> </Link>
         </MenuButton > 
         </Dropdown>
 

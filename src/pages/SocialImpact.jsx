@@ -17,7 +17,7 @@ const SocialImpact = () => (
       <div className="experience-overview">
         <img src={hack} ></img>
         <div className='experience-overview-text'> 
-          <Link to="/google" > <Tab value="Google" label="Search and Sustainability @ Google" className="experience-overview-link" /> </Link>
+          <Link to="/hack4impact" > <Tab value="Hack4Impact" label="Hack4Impact @ Cornell" className="experience-overview-link" /> </Link>
           <p> Worked on the Sustainability team within Google Search to improve customization of results shown during car searches and to show financial incentives and charging information for cars on desktop devices.  </p>
           <p>C++/Java/Javascript</p>
         </div>
