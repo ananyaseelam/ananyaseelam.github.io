@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar/NavBar';
 import './Page.css';
 
 
+
 const About = () => (
   <div className="container">
     <NavBar />
@@ -11,9 +12,10 @@ const About = () => (
       <p className="aboutBody">
         I was born and raised near Raleigh, North Carolina and currently go to Cornell in Ithaca, NY!
       </p>
-       <a className="resume-body" href="resume.pdf"> Click here to see my resume!</a>
+      <a className="resume-body" href={require("./resume.pdf")} target="_blank">Click here to see my resume!
+      </a>
       </div>
-
+      
     </div>
    
 );

@@ -12,7 +12,7 @@ const SocialImpact = () => (
     <NavBar />
 
     <div className="content-container">
-    <p className="header">Industry Experience</p>
+    <p className="header">Social Impact Work</p>
     <div className="two-column-layout">
       <div className="experience-overview">
         <img src={hack} ></img>
