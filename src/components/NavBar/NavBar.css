@@ -13,15 +13,22 @@
   font-weight: bolder !important;
   font-size: 2vh !important;
   font-family: 'Rubik' !important;
-  margin-right: 10vh !important;
-  margin-left: 10vh !important;
+  margin-right: 8vh !important;
+  margin-left: 8vh !important;
+  
 }
 
 .page-link:hover{
   box-shadow:gray;
+  text-decoration: 'underline' !important;
 }
 
 a:link {
-  text-decoration: none!important;
+  /* text-decoration: 'underline' !important; */
+}
+
+.MuiButtonBase-root-MuiTab-root {
+  margin: 0%; 
+  text-decoration: 'underline' !important;
 }
 

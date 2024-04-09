@@ -1,9 +1,10 @@
 import React from 'react';
 import Tab from '../../../node_modules/@mui/material/Tab';
 import Tabs from '../../../node_modules/@mui/material/Tabs';
-// import { Link, useHistory, useLocation } from 'react-router-dom';
+import { Link, useHistory, useLocation } from 'react-router-dom';
 import './NavBar.css'
 import Menu from '@mui/joy/Menu';
+import Button from '../../../node_modules/@mui/material/Button';
 import MenuButton from '@mui/joy/MenuButton';
 import MenuItem from '@mui/joy/MenuItem';
 import Dropdown from '@mui/joy/Dropdown';
@@ -32,12 +33,18 @@ const NavBar = () => {
         value={value}
         onChange={handleChange}
       >
-        <a href="/" > <Tab value="Home" label="home" className="page-link" /> </a>
-        <Dropdown>
-          {/* <MenuButton className="page-link" >  */}
-          <a href="/experience" > <Tab value="Experience" label="experience" className="page-link" /> </a>
-          {/* </MenuButton> */}
-          <Menu>
+        <Dropdown >
+          <MenuButton variant="plain"> 
+         <a href="/" > <Tab value="Home" label="home" className="page-link" /> </a>
+        </MenuButton>
+        </Dropdown>
+        <Dropdown >
+          <MenuButton variant="plain"> 
+          <Link to="/experience"> <Tab value="Experience" label="experience" className="page-link" /> </Link>
+          </MenuButton>
+          <Menu MenuListProps={{
+            disablePadding: true
+            }}>
             <MenuItem>
             <a href="/google" > <Tab value="Google" label="Google" className="page-link" /> </a>
             </MenuItem>
@@ -50,9 +57,22 @@ const NavBar = () => {
           </Menu>
         </Dropdown>
         {/* <MyDropdown></MyDropdown> */}
+        <Dropdown >
+        <MenuButton variant="plain"> 
         <a href="/research" > <Tab value="Research" label="research" className="page-link" /> </a>
+        </MenuButton > 
+        </Dropdown>
+        
+        <Dropdown >
+        <MenuButton variant="plain"> 
         <a href="/social-impact" > <Tab value="Social Impact" label="Social Impact" className="page-link" /> </a>
+        </MenuButton > 
+        </Dropdown>
+        <Dropdown >
+        <MenuButton variant="plain"> 
         <a href="/about" > <Tab value="About Me" label="about" className="page-link" /> </a>
+        </MenuButton > 
+        </Dropdown>
 
       </Tabs >
     </div >
