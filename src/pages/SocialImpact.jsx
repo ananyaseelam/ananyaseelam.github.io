@@ -2,14 +2,13 @@ import React from 'react';
 import NavBar from '../components/NavBar/NavBar';
 import './Page.css';
 
-
-const Contact = () => (
+const SocialImpact = () => (
   <div className="container">
     <NavBar />
     <div className="content-container">
-      <p className="header">Contact</p>
+      <p className="header"> SocialImpact </p>
     </div>
   </div>
 );
 
-export default Contact;
+export default SocialImpact;

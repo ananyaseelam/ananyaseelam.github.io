@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from '../components/NavBar/NavBar';
 import './Page.css';
-import profile from './pro-pic.png';
+import profile from './assets/pro-pic.png';
 import Button from '../../node_modules/@mui/material/Button';
 import Pdf from './resume.pdf';
 import "@fontsource/rubik"; // Defaults to weight 400
@@ -23,7 +23,6 @@ const Home = () => {
         </div>
         <img src={profile} className="profile-pic" />
       </div>
-      {/* <p>f063</p> */}
       {/* <i class="fa-thin fa-arrow-down"></i>       */}
       {/* <BrowserView>
         <h1> This is rendered only in browser </h1>

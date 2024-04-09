@@ -18,8 +18,8 @@ const NavBar = () => {
       >
         <Link to="/" > <Tab value="Home" label="home" className="page-link" /> </Link>
         <Link to="/experience" > <Tab value="Experience" label="experience" className="page-link" /> </Link>
-        <Link to="/projects" > <Tab value="Projects" label="projects" className="page-link" /> </Link>
-        <Link to="/contact" > <Tab value="Contact" label="contact" className="page-link" /> </Link>
+        <Link to="/research" > <Tab value="Research" label="research" className="page-link" /> </Link>
+        <Link to="/social-impact" > <Tab value="Social Impact" label="Social Impact" className="page-link" /> </Link>
         <Link to="/about" > <Tab value="About Me" label="about" className="page-link" /> </Link>
 
       </Tabs >
