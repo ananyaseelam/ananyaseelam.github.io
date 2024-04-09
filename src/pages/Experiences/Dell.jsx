@@ -9,6 +9,18 @@ const Dell = () => (
     <NavBar />
     <div className="content-container">
       <p className="header">Dell</p>
+      <div className="full-experience-wrapper">
+        <div className='experience-image'></div>
+        <div className="experience-text-wrapper">
+          <p className='subheading'>Summary</p>
+          <p className='description-text'>insert description here</p>
+          <p className='subheading'>Roadblocks</p>
+          <p className='description-text'>insert description here</p>
+          <p className='subheading'>Skills</p>
+          <p className='description-text'>insert description here</p>
+        </div>
+        
+      </div>
     </div>
   </div>
 );

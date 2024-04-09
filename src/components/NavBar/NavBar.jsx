@@ -8,7 +8,7 @@ import Button from '../../../node_modules/@mui/material/Button';
 import MenuButton from '@mui/joy/MenuButton';
 import MenuItem from '@mui/joy/MenuItem';
 import Dropdown from '@mui/joy/Dropdown';
-import MyDropdown from '../MyDropdown';
+// import NavTab from './NavTab';
 import { useState } from "react";
 
 const NavBar = () => {
@@ -17,15 +17,8 @@ const NavBar = () => {
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
-  const [isExperienceDropdownVisible, setExperienceDropdown] = useState(null);
-  
-  const handleExperienceMouseEnter = () => {
-    setExperienceDropdown(true);
-  };
 
-  const handleExperienceMouseLeave = () => {
-    setExperienceDropdown(false);
-  };
+  const experienceDropdowns = [{}]
 
   return (
     <div className="navcontainer">

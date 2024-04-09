@@ -15,7 +15,6 @@ const Experience = () => (
     <div className="content-container">
     <p className="header">Industry Experience</p>
     <div className="two-column-layout">
-      {/* <ExperienceOverviewCard imgSrc={google} linkto='/google' tabValue="Google" label="Search and Sustainability @ Google"/> */}
       <div className="experience-overview">
         <img src={google} className='logo-google'></img>
         <div className='experience-overview-text'> 

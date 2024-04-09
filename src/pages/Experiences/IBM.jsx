@@ -6,9 +6,9 @@ const IBM = () => (
   <div className="container">
     <NavBar />
     <div className="content-container">
-    <p className="header">IBM</p >
+    <p className="header"> IBM </p>
       <div className="full-experience-wrapper">
-        <div className='experience-image'>hi</div>
+        <div className='experience-image'></div>
         <div className="experience-text-wrapper">
           <p className='subheading'>Summary</p>
           <p className='description-text'>insert description here</p>
