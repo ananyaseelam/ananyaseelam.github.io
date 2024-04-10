@@ -14,7 +14,7 @@ import WICC from './pages/SocialImpact/WICC';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter >
       <Routes>
         <Route path="/" index element={<Home />} />
         <Route path="/about" index element={<About />} />
