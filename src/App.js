@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Experience from "./pages/Experience";
 import SocialImpact from "./pages/SocialImpact";
@@ -14,7 +14,7 @@ import WICC from './pages/SocialImpact/WICC';
 
 export default function App() {
   return (
-    <BrowserRouter >
+    <HashRouter >
       <Routes>
         <Route path="/" index element={<Home />} />
         <Route path="/about" index element={<About />} />
@@ -30,7 +30,7 @@ export default function App() {
 
         
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
