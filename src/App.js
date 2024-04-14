@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom";
-import { MemoryRouter, Routes, Route } from "react-router-dom";
+import { MemoryRouter, BrowserRouter, Routes, Route, hasHistory } from "react-router-dom";
 import Home from "./pages/Home";
 import Experience from "./pages/Experience";
 import SocialImpact from "./pages/SocialImpact";
@@ -14,7 +14,7 @@ import WICC from './pages/SocialImpact/WICC';
 
 export default function App() {
   return (
-    <MemoryRouter basename="/">
+    <BrowserRouter basename="/" >
       <Routes>
         <Route path="/" index element={<Home />} />
         <Route path="/about" index element={<About />} />
@@ -27,10 +27,8 @@ export default function App() {
         <Route path="/hack4impact" index element={<Hack />} />
         <Route path="/anabels" index element={<Anabels />} />
         <Route path="/wicc" index element={<WICC />} />
-
-        
       </Routes>
-    </MemoryRouter>
+    </BrowserRouter>
   );
 }
 
