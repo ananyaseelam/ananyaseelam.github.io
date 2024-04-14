@@ -158,6 +158,18 @@
   justify-self: center;
 }
 
+.anabels-image {
+  border-style: solid;
+  border-width: 0.06rem;
+  border-color: black;
+  border-radius: 30px;
+  width: 40vw !important; 
+  height: 50vh !important; 
+  margin: 1rem; 
+  margin-bottom: 10rem;
+  margin-left:7rem;
+}
+
 @media (max-width: 70em) {
   /* .home-content-container {
     margin-top: 5%;
