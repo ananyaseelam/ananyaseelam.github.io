@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e446d254.css",
-    "main.js": "/static/js/main.e9c2c184.js",
+    "main.css": "/static/css/main.eb22567b.css",
+    "main.js": "/static/js/main.e781ce71.js",
     "reactPlayerYouTube.js": "/static/js/reactPlayerYouTube.0985caf3.chunk.js",
     "reactPlayerSoundCloud.js": "/static/js/reactPlayerSoundCloud.ee8461ae.chunk.js",
     "reactPlayerVimeo.js": "/static/js/reactPlayerVimeo.d0f6a3f6.chunk.js",
@@ -18,10 +18,12 @@
     "reactPlayerPreview.js": "/static/js/reactPlayerPreview.b150bfd2.chunk.js",
     "static/js/787.94a40162.chunk.js": "/static/js/787.94a40162.chunk.js",
     "static/media/resume.pdf": "/static/media/resume.be21bf28d7c0abae8107.pdf",
+    "static/media/chaos-engineering.png": "/static/media/chaos-engineering.d5447030fbbb2af10532.png",
     "static/media/wicc.png": "/static/media/wicc.ab58d490e1587c14f308.png",
     "static/media/dell.png": "/static/media/dell.37c34779ac0f098306b2.png",
     "static/media/anabel.png": "/static/media/anabel.3c6a3d9418ba776b58ca.png",
     "static/media/pro-pic.png": "/static/media/pro-pic.705a65edf8112f9bb064.png",
+    "static/media/ibm-diagram.png": "/static/media/ibm-diagram.b4f17341dc2c39cbc8ea.png",
     "static/media/rubik-latin-400-italic.woff": "/static/media/rubik-latin-400-italic.2ac599d76a27669c790d.woff",
     "static/media/rubik-latin-400-normal.woff": "/static/media/rubik-latin-400-normal.870dcb9ca975e7fa06a9.woff",
     "static/media/rubik-arabic-400-italic.woff": "/static/media/rubik-arabic-400-italic.73e5d7ef2f17b9073b3c.woff",
@@ -50,8 +52,8 @@
     "static/media/rubik-hebrew-400-italic.woff2": "/static/media/rubik-hebrew-400-italic.485dcc98976a3936672d.woff2",
     "static/media/rubik-hebrew-400-normal.woff2": "/static/media/rubik-hebrew-400-normal.9f12218709f0b72dbf18.woff2",
     "index.html": "/index.html",
-    "main.e446d254.css.map": "/static/css/main.e446d254.css.map",
-    "main.e9c2c184.js.map": "/static/js/main.e9c2c184.js.map",
+    "main.eb22567b.css.map": "/static/css/main.eb22567b.css.map",
+    "main.e781ce71.js.map": "/static/js/main.e781ce71.js.map",
     "reactPlayerYouTube.0985caf3.chunk.js.map": "/static/js/reactPlayerYouTube.0985caf3.chunk.js.map",
     "reactPlayerSoundCloud.ee8461ae.chunk.js.map": "/static/js/reactPlayerSoundCloud.ee8461ae.chunk.js.map",
     "reactPlayerVimeo.d0f6a3f6.chunk.js.map": "/static/js/reactPlayerVimeo.d0f6a3f6.chunk.js.map",
@@ -69,7 +71,7 @@
     "787.94a40162.chunk.js.map": "/static/js/787.94a40162.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e446d254.css",
-    "static/js/main.e9c2c184.js"
+    "static/css/main.eb22567b.css",
+    "static/js/main.e781ce71.js"
   ]
 }
