@@ -9,7 +9,7 @@ import Tab from '../../node_modules/@mui/material/Tab';
 
 const SocialImpact = () => (
   <div className="container">
-    <NavBar />
+    {/* <NavBar /> */}
 
     <div className="content-container">
     <p className="header">Social Impact Work</p>

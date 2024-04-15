@@ -7,12 +7,10 @@ import chaos from '../assets/chaos-engineering.png'
 const Dell = () => (
   
   <div className="container">
-    <NavBar />
     <div className="content-container">
       <p className="header">Dell</p>
       <div className="full-experience-wrapper">
       <img className='experience-image' src= {chaos} ></img>
-        {/* <div className='experience-image'></div> */}
         <div className="experience-text-wrapper">
           <p className='subheading'>Summary</p>
           <p className='description-text'>

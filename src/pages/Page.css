@@ -6,8 +6,8 @@
 }
 
 .home-content-container{
-  margin-top: 5%;
-  padding-bottom: 15%;
+  /* margin-top: 5%; */
+  height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -18,6 +18,7 @@
   font-weight: bold;
   font-family:'Rubik';
   margin-left: 10%;
+  margin-top: 0%; 
 }
 
 .name-bio{
@@ -55,8 +56,8 @@
 
 .profile-pic{
   border-radius: 100%;
-  width: 20%; 
-  height: 20%;
+  width: 35vh; 
+  height: 35vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,6 +104,12 @@
 }
 
 .two-column-layout{
+  margin: 5%; 
+  display: flex;
+  flex-direction: column;
+}
+
+.single-column-layout{
   margin: 5%; 
   display: flex;
   flex-direction: column;
@@ -156,6 +163,7 @@
   justify-content: center !important;
   align-items: center !important;
   justify-self: center;
+  flex-direction: column;
 }
 
 .anabels-image {
@@ -170,7 +178,114 @@
   margin-left:7rem;
 }
 
-@media (max-width: 70em) {
+* {
+  box-sizing: border-box;
+  color: #2D2D34 ;
+}
+
+.linkedin{
+  height: 10vh;
+  width: 10vw;
+  /* margin:2%; */
+}
+
+
+.resumeBtn{
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color:#2D2D34 ;
+  border-radius: 30px;
+  height: 7vh;
+  width: 9vw;
+  margin-top:1.5%;
+  background-color: #2D2D34;
+}
+
+.contact{
+  display: flex;
+  flex-direction: row;
+  margin-left:-6%;
+  margin-top: -5%;
+}
+
+.resumebtntext{
+  /* color: #2D2D34; */
+  /* color:white; */
+  color: white;
+  font-weight: bolder !important;
+  font-size: 2vh !important;
+  font-family: 'Rubik' !important;
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 70em) {
+  .linkedin{
+    height: 15vh;
+    width: 15vw;
+    margin:2%;
+  }
+  
+
+.resumeBtn{
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color:#2D2D34 ;
+  border-radius: 30px;
+  height: 7vh;
+  width: 20vw;
+  margin:2%;
+  margin-top: 7%;
+  background-color: #2D2D34;
+}
+
+.contact{
+  display: flex;
+  flex-direction: row;
+  margin-left:2%;
+
+}
+
+.resumebtntext{
+  /* color: #2D2D34; */
+  /* color:white; */
+  color: white;
+  font-weight: bolder !important;
+  font-size: 2vh !important;
+  font-family: 'Rubik' !important;
+  text-decoration: none;
+}
+
+  .container{
+    height: 100vh;
+    width: 100vw;
+    padding-bottom: 0px; 
+  }
+
+  .name{
+    width: fit-content;
+    margin:5%;
+    padding-top: 35%;
+  }
+
+  .bio{
+    width:fit-content;
+    margin:5%;
+  }
+
+  .research-block{
+    height: 50%; 
+    padding: 3%;
+  }
+  .experience-overview-link{
+    color:#2D2D34 !important;
+    font-weight: bolder !important;
+    font-size: 2vh !important;
+    font-family: 'Rubik' !important;
+    max-width: 100% !important; 
+    padding-left: 20px !important;
+    text-decoration: underline !important;
+  }
   /* .home-content-container {
     margin-top: 5%;
     margin-left: 10%;

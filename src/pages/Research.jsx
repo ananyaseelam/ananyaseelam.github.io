@@ -5,7 +5,7 @@ import './Page.css';
 
 const Research = () => (
   <div className="container">
-    <NavBar />
+    {/* <NavBar /> */}
     <div className="content-container">
       <p className="header">Research</p>
       <div className='research-wrapper'>

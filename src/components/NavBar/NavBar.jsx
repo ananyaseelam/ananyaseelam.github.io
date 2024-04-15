@@ -8,8 +8,9 @@ import Button from '../../../node_modules/@mui/material/Button';
 import MenuButton from '@mui/joy/MenuButton';
 import MenuItem from '@mui/joy/MenuItem';
 import Dropdown from '@mui/joy/Dropdown';
-// import NavTab from './NavTab';
-import { useState } from "react";
+import {isMobile} from 'react-device-detect';
+import { slide as SlideMenu } from 'react-burger-menu'
+
 
 const NavBar = () => {
   const [value, setValue] = React.useState('1');
@@ -21,6 +22,18 @@ const NavBar = () => {
   const experienceDropdowns = [{}]
 
   return (
+    // isMobile ? (
+    //   <div>hi
+    //     <SlideMenu>
+    //       <a id="home" className="page-link" href="/">Home</a>
+    //       {/* <a id="about" className="menu-item" href="/about">About</a> */}
+    //       {/* <a id="contact" className="menu-item" href="/contact">Contact</a> */}
+    //       <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
+    //     </SlideMenu>
+    //   </div>
+    // )
+    // :
+    (
     <div className="navcontainer">
       <Tabs
         value={value}
@@ -49,7 +62,6 @@ const NavBar = () => {
             </MenuItem>
           </Menu>
         </Dropdown>
-        {/* <MyDropdown></MyDropdown> */}
         <Dropdown >
         <MenuButton variant="plain"> 
         <Link to="/research" > <Tab value="Research" label="research" className="page-link" /> </Link>
@@ -79,9 +91,8 @@ const NavBar = () => {
         <Link to="/about" > <Tab value="About Me" label="about" className="page-link" /> </Link>
         </MenuButton > 
         </Dropdown>
-
       </Tabs >
-    </div >
+    </div >)
 
   );
 

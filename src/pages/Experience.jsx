@@ -6,12 +6,28 @@ import ibm from './assets/ibm.png';
 import dell from './assets/dell.png';
 import { Link, useHistory, useLocation } from 'react-router-dom';
 import Tab from '../../node_modules/@mui/material/Tab';
-// import ExperienceOverviewCard from './Experiences/ExperienceOverviewCard';
+import {isMobile} from 'react-device-detect';
 
 const Experience = () => (
+  isMobile ? (
+    <div className="container">
+    <p className="header">Industry Experience</p>
+      <div className="experience-overview">
+        <div className='experience-overview-text'> 
+          <Link to="/google" > <Tab value="Google" label="Search and Sustainability @ Google" className="experience-overview-link" /> <img src={google} className='logo-google'></img> </Link>
+        </div>
+      </div>
+      <div className="experience-overview">
+        <div className='experience-overview-text'> 
+          <Link to="/ibm" > <Tab value="IBM" label="Quantum Computing @ IBM" className="experience-overview-link" /> 
+            <img src={ibm} className='logo-ibm'></img>
+          </Link>
+        </div>
+      </div>
+    </div>
+    )
+  :(
   <div className="container">
-    <NavBar />
-
     <div className="content-container">
     <p className="header">Industry Experience</p>
     <div className="two-column-layout">
@@ -40,9 +56,8 @@ const Experience = () => (
         </div>
       </div>
     </div>
-      
     </div>
   </div>
-);
+  ));
 
 export default Experience;

@@ -5,11 +5,9 @@ import '../Page.css';
 
 const IBM = () => (
   <div className="container">
-    <NavBar />
     <div className="content-container">
     <p className="header"> IBM </p>
       <div className="full-experience-wrapper">
-        {/* <div className='experience-image'></div> */}
         <img className='experience-image' src= {diagram} ></img>
         <div className="experience-text-wrapper">
           <p className='subheading'>Summary</p>

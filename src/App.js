@@ -11,10 +11,17 @@ import Dell from "./pages/Experiences/Dell";
 import Hack from './pages/SocialImpact/Hack';
 import Anabels from './pages/SocialImpact/Anabels';
 import WICC from './pages/SocialImpact/WICC';
+import NavBar from './components/NavBar/NavBar';
+import '../src/pages/Page.css';
+import { isMobile } from "react-device-detect";
+
 
 export default function App() {
   return (
     <BrowserRouter basename="/" >
+      {isMobile ? <></>:
+      <NavBar/>
+      }
       <Routes>
         <Route path="/" index element={<Home />} />
         <Route path="/about" index element={<About />} />

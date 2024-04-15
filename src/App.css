@@ -32,6 +32,13 @@
   color: #E2DCDE;
 }
 
+a { color:black } /* Globally */
+
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:black; }
+a:focus { text-decoration: none; color:black; }
+a:hover, a:active { text-decoration: none; color:black }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
