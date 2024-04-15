@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7ee233d4.css",
-    "main.js": "/static/js/main.799edcd3.js",
+    "main.js": "/static/js/main.c0a2c1a1.js",
     "reactPlayerYouTube.js": "/static/js/reactPlayerYouTube.0985caf3.chunk.js",
     "reactPlayerSoundCloud.js": "/static/js/reactPlayerSoundCloud.ee8461ae.chunk.js",
     "reactPlayerVimeo.js": "/static/js/reactPlayerVimeo.d0f6a3f6.chunk.js",
@@ -57,7 +57,7 @@
     "static/media/rubik-hebrew-400-normal.woff2": "/static/media/rubik-hebrew-400-normal.9f12218709f0b72dbf18.woff2",
     "index.html": "/index.html",
     "main.7ee233d4.css.map": "/static/css/main.7ee233d4.css.map",
-    "main.799edcd3.js.map": "/static/js/main.799edcd3.js.map",
+    "main.c0a2c1a1.js.map": "/static/js/main.c0a2c1a1.js.map",
     "reactPlayerYouTube.0985caf3.chunk.js.map": "/static/js/reactPlayerYouTube.0985caf3.chunk.js.map",
     "reactPlayerSoundCloud.ee8461ae.chunk.js.map": "/static/js/reactPlayerSoundCloud.ee8461ae.chunk.js.map",
     "reactPlayerVimeo.d0f6a3f6.chunk.js.map": "/static/js/reactPlayerVimeo.d0f6a3f6.chunk.js.map",
@@ -76,6 +76,6 @@
   },
   "entrypoints": [
     "static/css/main.7ee233d4.css",
-    "static/js/main.799edcd3.js"
+    "static/js/main.c0a2c1a1.js"
   ]
 }
