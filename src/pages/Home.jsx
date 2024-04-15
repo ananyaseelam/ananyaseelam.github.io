@@ -39,6 +39,7 @@ const Home = () => {
 
     :
     <div className="container">
+      {/* <NavBar /> */}
       <div className="home-content-container">
         <div className="name-bio">
         <p className="name">Ananya Seelam</p>
