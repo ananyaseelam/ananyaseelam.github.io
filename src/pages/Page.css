@@ -282,11 +282,13 @@
   .name{
     width: fit-content;
     margin:5%;
-    padding-top: 35%;
+    padding-top: 32%;
+    font-size: 8vh;
   }
 
   .bio{
     width:fit-content;
+    font-size: 4vh;
     margin:5%;
   }
 
