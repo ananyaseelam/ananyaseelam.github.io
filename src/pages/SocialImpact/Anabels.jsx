@@ -5,7 +5,6 @@ import '../Page.css';
 
 const Anabels = () => (
   <div className="container">
-    <NavBar />
     <div className="content-container">
     <p className="header"> Anabels Grocery </p>
       <div className="full-experience-wrapper">
