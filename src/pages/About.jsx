@@ -23,7 +23,7 @@ const About = () => (
 
       <div className='about-contact'>
         <a href="https://www.linkedin.com/in/ananya-seelam-5003871a2/"><TiSocialLinkedinCircular className='linkedin'/> </a>
-        <button className='resumeBtn'><a href={require("./resume.pdf")} target="_blank" className='resumebtntext' >Resume</a></button>
+        <button className='about-resumeBtn'><a href={require("./resume.pdf")} target="_blank" className='resumebtntext' >Resume</a></button>
       </div>
 
       </div>

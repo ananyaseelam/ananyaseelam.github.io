@@ -228,6 +228,18 @@
   text-decoration: none;
 }
 
+.about-resumeBtn{
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color:#2D2D34 ;
+  border-radius: 30px;
+  height: 7vh;
+  width: 10vw;
+  margin:1%;
+  background-color: #2D2D34;
+}
+
+
 
 @media screen and (max-width: 70em) {
 
@@ -254,6 +266,7 @@
   margin-top: 7%;
   background-color: #2D2D34;
 }
+
 
 .contact{
   display: flex;
