@@ -28,13 +28,13 @@ const SocialImpact = () => (
           <p> Helping run a student-led grocery store to provide affordable and locally sourced food for Ithaca residents.   </p>
         </div>
       </div>
-      <div className="experience-overview">
+      {/* <div className="experience-overview">
         <img src={wicc}></img>
         <div className='experience-overview-text'> 
           <Link to="/wicc" > <Tab value="WICC" label="Women in Computing @ Cornell | Girls Who Code" className="experience-overview-link" /> </Link>
           <p> Taught middle and high school students coding through Girls Who Code and led campus intiatives to improve inclusion in computing on campus </p>
         </div>
-      </div>
+      </div> */}
     </div>
       
     </div>
