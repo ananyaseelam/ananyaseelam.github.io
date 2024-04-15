@@ -81,9 +81,9 @@ const NavBar = () => {
             <MenuItem>
             <Link to="/anabels" > <Tab value="Anabels Grocery" label="Anabels Grocery" className="page-link" /> </Link>
             </MenuItem>
-            <MenuItem>
+            {/* <MenuItem>
             <Link to="/wicc" > <Tab value="WICC" label="WICC" className="page-link" /> </Link>
-            </MenuItem>
+            </MenuItem> */}
           </Menu>
         </Dropdown>
         <Dropdown >
