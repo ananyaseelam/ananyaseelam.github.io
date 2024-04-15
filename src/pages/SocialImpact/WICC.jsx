@@ -4,7 +4,6 @@ import '../Page.css';
 
 const WICC = () => (
   <div className="container">
-    <NavBar />
     <div className="content-container">
     <p className="header"> WICC </p>
       <div className="full-experience-wrapper">

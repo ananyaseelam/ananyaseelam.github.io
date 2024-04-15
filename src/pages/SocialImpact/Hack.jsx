@@ -9,7 +9,6 @@ import Tab from '../../../node_modules/@mui/material/Tab';
 
 const Hack = () => (
   <div className="container">
-    <NavBar />
     <div className="content-container">
     <p className="header"> Hack4Impact </p>
     <div className="two-column-layout">
