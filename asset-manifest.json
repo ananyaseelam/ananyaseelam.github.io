@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dd97fb87.css",
-    "main.js": "/static/js/main.76855d95.js",
+    "main.js": "/static/js/main.895425e4.js",
     "reactPlayerYouTube.js": "/static/js/reactPlayerYouTube.0985caf3.chunk.js",
     "reactPlayerSoundCloud.js": "/static/js/reactPlayerSoundCloud.ee8461ae.chunk.js",
     "reactPlayerVimeo.js": "/static/js/reactPlayerVimeo.d0f6a3f6.chunk.js",
@@ -21,7 +21,7 @@
     "static/media/hackpic.png": "/static/media/hackpic.66280b6b6f10d6592c8e.png",
     "static/media/showcase.png": "/static/media/showcase.42a2b564fc14bbd36683.png",
     "static/media/boompic.png": "/static/media/boompic.952ed74057eb366ba531.png",
-    "static/media/resume.pdf": "/static/media/resume.be21bf28d7c0abae8107.pdf",
+    "static/media/resume.pdf": "/static/media/resume.2425a4917b6255ddcea0.pdf",
     "static/media/chaos-engineering.png": "/static/media/chaos-engineering.d5447030fbbb2af10532.png",
     "static/media/wicc.png": "/static/media/wicc.ab58d490e1587c14f308.png",
     "static/media/dell.png": "/static/media/dell.37c34779ac0f098306b2.png",
@@ -57,7 +57,7 @@
     "static/media/rubik-hebrew-400-normal.woff2": "/static/media/rubik-hebrew-400-normal.9f12218709f0b72dbf18.woff2",
     "index.html": "/index.html",
     "main.dd97fb87.css.map": "/static/css/main.dd97fb87.css.map",
-    "main.76855d95.js.map": "/static/js/main.76855d95.js.map",
+    "main.895425e4.js.map": "/static/js/main.895425e4.js.map",
     "reactPlayerYouTube.0985caf3.chunk.js.map": "/static/js/reactPlayerYouTube.0985caf3.chunk.js.map",
     "reactPlayerSoundCloud.ee8461ae.chunk.js.map": "/static/js/reactPlayerSoundCloud.ee8461ae.chunk.js.map",
     "reactPlayerVimeo.d0f6a3f6.chunk.js.map": "/static/js/reactPlayerVimeo.d0f6a3f6.chunk.js.map",
@@ -76,6 +76,6 @@
   },
   "entrypoints": [
     "static/css/main.dd97fb87.css",
-    "static/js/main.76855d95.js"
+    "static/js/main.895425e4.js"
   ]
 }
