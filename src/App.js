@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom";
-import { MemoryRouter, BrowserRouter, Routes, Route, hasHistory } from "react-router-dom";
+import { MemoryRouter, BrowserRouter, Routes, Route, hasHistory, HashRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import Experience from "./pages/Experience";
 import SocialImpact from "./pages/SocialImpact";
@@ -18,7 +18,7 @@ import { isMobile } from "react-device-detect";
 
 export default function App() {
   return (
-    <BrowserRouter basename="/" >
+    <HashRouter basename="/" >
       {isMobile ? <></>:
       <NavBar/>
       }
@@ -35,7 +35,7 @@ export default function App() {
         <Route path="/anabels" index element={<Anabels />} />
         <Route path="/wicc" index element={<WICC />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

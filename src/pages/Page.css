@@ -40,6 +40,10 @@
   margin-top: -2%;
   font-family:'Rubik';
   color: #2D2D34;
+  * {
+    box-sizing: border-box;
+    color: #B96472;
+  }
 }
 
 .color-pop{
@@ -180,12 +184,18 @@
 * {
   box-sizing: border-box;
   color: #2D2D34 ;
+  /* color: #B96472; */
 }
 
 .linkedin{
   height: 10vh;
   width: 10vw;
-  /* margin:2%; */
+  margin-right:-5%;
+  * {
+    box-sizing: border-box;
+    /* color: #2D2D34 ; */
+    color: #2D2D34;
+  };
 }
 
 
@@ -197,6 +207,7 @@
   height: 7vh;
   width: 9vw;
   margin-top:1.5%;
+  margin-left: -2%;
   background-color: #2D2D34;
 }
 
@@ -268,8 +279,7 @@
   display: flex;
   flex-direction: row;
   margin-left: 2%;
-  margin-top: 8%;
-  padding-bottom:5%;
+  padding-bottom:18%;
 }
 
 .resumebtntext{
@@ -299,6 +309,7 @@
     width:fit-content;
     font-size: 4vh;
     margin:5%;
+
   }
 
   .research-block{
