@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from '../../components/NavBar/NavBar';
 import ReactPlayer from 'react-player'
 import './Experience.css';
 
@@ -9,12 +8,13 @@ const Google = () => (
     <p className="header">Google</p >
       <div className="full-experience-wrapper">
         <div className='video-wrapper'>
-            <ReactPlayer
-            url= 'google_demo.mp4'
-            width='100%'
-            height='100%'
-            controls = {true}
-            />
+          <ReactPlayer
+          url='/google-demo.mp4'
+          width='100%'
+          height='100%'
+          controls = {true}
+          playing = {true}
+          />
         </div>
         <div className="experience-text-wrapper">
           <p className='subheading'>Summary</p>

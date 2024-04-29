@@ -39,7 +39,7 @@ const NavBar = () => {
         value={value}
         onChange={handleChange}
       >
-        <Dropdown >
+        <Dropdown className="navbartab">
           <MenuButton variant="plain"> 
          <a href="/" > <Tab value="Home" label="home" className="page-link" /> </a>
         </MenuButton>
