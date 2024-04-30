@@ -12,6 +12,8 @@ import Hack from './pages/SocialImpact/Hack';
 import Anabels from './pages/SocialImpact/Anabels';
 import WICC from './pages/SocialImpact/WICC';
 import NavBar from './components/NavBar/NavBar';
+import NavBar2 from './components/NavBar/NavBar2';
+
 import '../src/pages/Page.css';
 import { isMobile } from "react-device-detect";
 
@@ -21,9 +23,11 @@ export default function App() {
     <HashRouter basename="/" >
       {isMobile ? <></>:
       <NavBar/>
+      // <NavBar2/>
       }
       <Routes>
         <Route path="/" index element={<Home />} />
+        <Route path="/home" index element={<Home />} />
         <Route path="/about" index element={<About />} />
         <Route path="/experience" index element={<Experience />} />
         <Route path="/social-impact" index element={<SocialImpact />} />

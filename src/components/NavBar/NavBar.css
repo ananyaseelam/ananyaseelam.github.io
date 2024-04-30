@@ -15,8 +15,8 @@
 
 .page-link{
   color: #2D2D34 !important;
-  font-weight: bolder !important;
-  font-size: 2vh !important;
+  /* font-weight: bold !important; */
+  font-size: 2.25vh !important;
   font-family: 'Rubik' !important;
   margin-right: 8vh !important;
   margin-left: 8vh !important;
@@ -24,6 +24,8 @@
 
 .page-link:hover{
   /* box-shadow:gray; */
+  color: #000000 !important;
+  font-weight: 999 !important;
   -webkit-tap-highlight-color: #E2DCDE !important; 
   text-decoration: 'underline' !important;
 }

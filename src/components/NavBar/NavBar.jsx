@@ -39,16 +39,16 @@ const NavBar = () => {
         value={value}
         onChange={handleChange}
       >
-        <Dropdown className="navbartab">
-          <MenuButton variant="plain"> 
+        <Dropdown className="navbartab" sx={{ '&.MuiButton-root:hover':{bgcolor: 'transparent'} }}>
+        <MenuButton sx={{border: 'none',':hover': { backgroundColor: 'transparent' } }}> 
          <a href="/" > <Tab value="Home" label="home" className="page-link" /> </a>
         </MenuButton>
         </Dropdown>
         <Dropdown >
-          <MenuButton variant="plain"> 
+        <MenuButton sx={{border: 'none',':hover': { backgroundColor: 'transparent' } }}> 
           <Link to="/experience"> <Tab value="Experience" label="experience" className="page-link" /> </Link>
           </MenuButton>
-          <Menu MenuListProps={{
+          <Menu sx={{ ':hover': { backgroundColor: 'transparent' } }} MenuListProps={{
             disablePadding: true
             }}>
             <MenuItem>
@@ -63,14 +63,14 @@ const NavBar = () => {
           </Menu>
         </Dropdown>
         <Dropdown >
-        <MenuButton variant="plain"> 
+        <MenuButton sx={{border: 'none',':hover': { backgroundColor: 'transparent' } }}> 
         <Link to="/research" > <Tab value="Research" label="research" className="page-link" /> </Link>
         </MenuButton > 
         </Dropdown>
         
         <Dropdown >
-        <MenuButton variant="plain"> 
-        <Link to="/social-impact" > <Tab value="Social Impact" label="Social Impact" className="page-link" /> </Link>
+        <MenuButton sx={{border: 'none',':hover': { backgroundColor: 'transparent' } }}> 
+          <Link to="/social-impact" > <Tab value="Social Impact" label="Social Impact" className="page-link" /> </Link>
         </MenuButton > 
         <Menu MenuListProps={{
             disablePadding: true
@@ -87,8 +87,8 @@ const NavBar = () => {
           </Menu>
         </Dropdown>
         <Dropdown >
-        <MenuButton variant="plain"> 
-        <Link to="/about" > <Tab value="About Me" label="about" className="page-link" /> </Link>
+        <MenuButton sx={{border: 'none',':hover': { backgroundColor: 'transparent' } }}> 
+          <Link to="/about" > <Tab value="About Me" label="about" className="page-link" /> </Link>
         </MenuButton > 
         </Dropdown>
       </Tabs >
