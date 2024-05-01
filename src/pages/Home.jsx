@@ -53,7 +53,7 @@ const Home = () => {
         <button className='resumeBtn'><a href={require("./resume.pdf")} target="_blank" className='resumebtntext' >Resume</a></button>
         </div>
         </div>
-        <img src={profile} className="profile-pic" />
+        <img alt="A professional profile picture of Ananya Seelam" src={profile} className="profile-pic" />
       </div>
     </div>
     

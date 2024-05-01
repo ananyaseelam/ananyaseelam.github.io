@@ -18,7 +18,7 @@ const Dell = () => (
       <p className="header">Dell</p>
       <Divider variant='middle' sx={style}/>
       <div className="full-experience-wrapper">
-      <img className='experience-image-dell' src= {chaos} ></img>
+      <img alt="An image about chaos engineering" className='experience-image-dell' src= {chaos} ></img>
         <div className="experience-text-wrapper">
           <p className='subheading'>Summary</p>
           <p className='experience-description-text'>

@@ -23,14 +23,14 @@ const SocialImpact = () => (
     <Divider variant='middle' sx={style}/>
     <div className="two-column-layout">
       <div className="socialimpact-overview">
-        <img src={hack} ></img>
+        <img alt="The Hack for Impact logo" src={hack} ></img>
         <div className='experience-overview-text'> 
           <Link to="/hack4impact" > <Tab value="Hack4Impact" label="Hack4Impact @ Cornell" className="experience-overview-link" /> </Link>
           <p> Led a student project team of over 60 students for one year and spent 2.5 years as a developer and technical lead, building software solutions for nonprofits such as Farmworkers Justice and the Earth Law Center. </p>
         </div>
       </div>
       <div className="socialimpact-overview">
-        <img src={anabel} ></img>
+        <img alt="The Anabel's grocery logo" src={anabel} ></img>
         <div className='experience-overview-text'> 
           <Link to="/anabels" > <Tab value="Anabels" label="Anabel's Grocery @ Cornell" className="experience-overview-link" /> </Link>
           <p> Helping run a student-led grocery store to provide affordable and locally sourced food for Ithaca residents.   </p>

@@ -17,7 +17,7 @@ const IBM = () => (
     <p className="header"> IBM </p>
     <Divider variant='middle' sx={style}/>
       <div className="full-experience-wrapper">
-        <img className='experience-image' src= {diagram} ></img>
+        <img alt="A graph-like diagram to represent the project Ananya worked on" className='experience-image' src= {diagram} ></img>
         <div className="experience-text-wrapper">
           <p className='subheading'>Summary</p>
           <p className='description-text'>

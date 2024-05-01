@@ -21,7 +21,7 @@ const Hack = () => (
     <Divider variant='middle' sx={style}/>
     <div className="two-column-layout">
       <div className="experience-overview">
-        <img src={showcase} className='hack-experience-image'></img>
+        <img alt="A Picture at the Hack for Impact showcase at Cornell" src={showcase} className='hack-experience-image'></img>
         <div className='experience-overview-text'> 
           {/* <Link to="/hack4impact" >  */}
           <Tab value="codirector" label="Co-Director of Hack4Impact" className="hack-subheading" /> 
@@ -31,7 +31,7 @@ const Hack = () => (
         </div>
       </div>
       <div className="experience-overview">
-        <img src={boom} className='hack-experience-image'></img>
+        <img alt="A Picture of Ananya winning an Award at the Cornell BOOM Event" src={boom} className='hack-experience-image'></img>
         <div className='experience-overview-text'> 
           {/* <Link to="/hack4impact" >  */}
           <Tab value="techlead" label="Technical Lead for Earth Law Center" className="hack-subheading" /> 
@@ -42,7 +42,7 @@ const Hack = () => (
         </div>
       </div>
       <div className="experience-overview">
-        <img src={award} className='hack-experience-image'></img>
+        <img alt="A Picture of Ananya recieving an Award for Hack4Impact" src={award} className='hack-experience-image'></img>
         <div className='experience-overview-text'> 
           {/* <Link to="/hack4impact" >  */}
           <Tab value="dev" label="Developer" className="hack-subheading" /> 

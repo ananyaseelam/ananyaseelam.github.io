@@ -23,13 +23,13 @@ const Experience = () => (
     
       <div className="experience-overview">
         <div className='experience-overview-text'> 
-          <Link to="/google" > <Tab value="Google" label="Search and Sustainability @ Google" className="experience-overview-link" /> <img src={google} className='logo-google'></img> </Link>
+          <Link to="/google" > <Tab value="Google" label="Search and Sustainability @ Google" className="experience-overview-link" /> <img alt="The Google logo" src={google} className='logo-google'></img> </Link>
         </div>
       </div>
       <div className="experience-overview">
         <div className='experience-overview-text'> 
           <Link to="/ibm" > <Tab value="IBM" label="Quantum Computing @ IBM" className="experience-overview-link" /> 
-            <img src={ibm} className='logo-ibm'></img>
+            <img alt="The IBM logo" src={ibm} className='logo-ibm'></img>
           </Link>
         </div>
       </div>
@@ -48,7 +48,7 @@ const Experience = () => (
 
       <div className="experience-overview">
       <Link to="/google" >
-        <img src={google} className='logo-google'/>
+        <img alt="The google logo" src={google} className='logo-google'/>
         </Link>
         <div className='experience-overview-text'> 
           <Link to="/google" > <Tab value="Google" label="Search and Sustainability @ Google" className="experience-overview-link" /> </Link>
@@ -58,7 +58,7 @@ const Experience = () => (
       </div>
       <div className="experience-overview">
       <Link to="/ibm" >
-        <img src={ibm} className='logo-ibm'/>
+        <img alt="The IBM logo" src={ibm} className='logo-ibm'/>
       </Link>
         <div className='experience-overview-text'> 
           <Link to="/ibm" > <Tab value="IBM" label="Quantum Computing @ IBM" className="experience-overview-link" /> </Link>
@@ -68,7 +68,7 @@ const Experience = () => (
       </div>
       <div className="experience-overview">
       <Link to="/dell" >
-        <img src={dell} className='logo-dell'/>
+        <img alt="The dell logo" src={dell} className='logo-dell'/>
       </Link>
         <div className='experience-overview-text'> 
           <Link to="/dell" > <Tab value="Dell" label="Cloud Computing @ Dell" className="experience-overview-link" /> </Link>

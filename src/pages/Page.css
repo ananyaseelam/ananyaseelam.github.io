@@ -1,6 +1,8 @@
 .container {
   font-family: 'Rubik';
   background-color: #E2DCDE;
+  background-repeat: repeat;
+  background-size: cover;
 }
 
 .home-content-container{

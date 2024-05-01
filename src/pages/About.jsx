@@ -20,7 +20,7 @@ const About = () => (
       <p className="header">About</p>
       <Divider variant='middle' sx={style}/>
       <div className='two-column-layout-about'>
-      <img className="profile-pic-about" src={propic2}></img>
+      <img alt="A casual profile picture of Ananya Seelam" className="profile-pic-about" src={propic2}></img>
 
       <div className='about-right'>
       <p className="resume-body">
