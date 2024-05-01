@@ -18,7 +18,7 @@ export default function BasicTimeline() {
     <Timeline sx={{fontFamily:'Rubik'}}>
       <TimelineItem>
         <TimelineSeparator >
-          <TimelineDot >
+          <TimelineDot color="primary" variant="filled">
             <ArticleIcon/>
           </TimelineDot >
           <TimelineConnector />
@@ -29,14 +29,13 @@ export default function BasicTimeline() {
           <b className='timeline-subheading'> SPRING 2024</b>
           </Typography>
           <Typography>
-            <p className='timeline-text-right'>Currently working with <a className='color-pop' href="https://mahikaphutane.com/">Mahika Phutane</a> about Ableism in LLMs and <a className='color-pop' href="https://www.sharonheung.com/">Sharon Hueng</a> about Ableism on Social Media </p>
-
+            <p className='timeline-text-right'>Currently researching Ableism in LLMs with <a className='color-pop' href="https://mahikaphutane.com/">Mahika Phutane</a> and Ableism on Social Media with <a className='color-pop' href="https://www.sharonheung.com/">Sharon Hueng</a>!</p>
           </Typography>
          </TimelineContent>
       </TimelineItem>
       <TimelineItem position='left'>
         <TimelineSeparator>
-          <TimelineDot>
+          <TimelineDot  color="primary" variant="filled">
             <CelebrationIcon/>
           </TimelineDot >
           <TimelineConnector />
@@ -50,7 +49,7 @@ export default function BasicTimeline() {
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineDot>
+          <TimelineDot  color="primary" variant="filled">
             <AssignmentTurnedInIcon/>
           </TimelineDot >
           <TimelineConnector />
@@ -64,7 +63,7 @@ export default function BasicTimeline() {
       </TimelineItem>
       <TimelineItem position='left'>
         <TimelineSeparator>
-          <TimelineDot>
+          <TimelineDot  color="primary" variant="filled">
             <PageviewIcon/>
           </TimelineDot >
         </TimelineSeparator>

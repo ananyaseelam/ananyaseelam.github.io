@@ -28,6 +28,10 @@
   padding-bottom: 1vh; 
 }
 
+.MuiTimelineDot-filledPrimary{
+  background-color:#bc8f96 !important;
+}
+
 .MuiTimelineConnector-root{
   height: 55px;
 }
