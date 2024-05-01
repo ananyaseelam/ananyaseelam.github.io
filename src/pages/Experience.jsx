@@ -42,7 +42,7 @@ const Experience = () => (
     
     <Divider variant='middle' sx={style}/>
     {/* <div className='description-text'>  */}
-      <p className='heading-description-text'> Over the last three years, I've worked on some pretty cool projects! Click on the links below to learn more about them! </p>
+      <p className='heading-description-text'> Over the last few years, I've worked on a few exciting industry projects! Click on the links below to learn more about them! </p>
     {/* </div> */}
     <div className="two-column-layout">
 
