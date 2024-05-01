@@ -32,7 +32,7 @@ const About = () => (
       </p>
 
       <p className="resume-body">
-        In my free time, I like to exercise, cook and bake vegan food, and travel!  
+        In my free time, I like to exercise, cook/ bake vegan food, and travel!  
       </p>
 
       <div className='about-contact'>

@@ -15,7 +15,7 @@ const Research = () => (
     <div className="research-content-container">
       <p className="header">Research</p>
       <Divider variant='middle' sx={style}/>
-      <p className='heading-description-text'> I joined Professor Aditya Vashistha's lab with the goal of investigating how we can better use technology to serve underserved communities!</p>
+      <p className='heading-description-text'> I joined Professor Aditya Vashistha's lab with the goal of investigating how we can create technologies for underserved communities!</p>
       <div className='timeline-container'>
       <BasicTimeline />
       </div>
