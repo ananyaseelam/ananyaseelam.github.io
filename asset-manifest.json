@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.21b84a36.css",
-    "main.js": "/static/js/main.cfc176b5.js",
+    "main.js": "/static/js/main.c39822aa.js",
     "reactPlayerYouTube.js": "/static/js/reactPlayerYouTube.0985caf3.chunk.js",
     "reactPlayerSoundCloud.js": "/static/js/reactPlayerSoundCloud.ee8461ae.chunk.js",
     "reactPlayerVimeo.js": "/static/js/reactPlayerVimeo.d0f6a3f6.chunk.js",
@@ -39,7 +39,7 @@
     "static/media/rubik-latin-400-normal.woff2": "/static/media/rubik-latin-400-normal.5903a23647de7c1c373f.woff2",
     "static/media/rubik-arabic-400-italic.woff2": "/static/media/rubik-arabic-400-italic.c1e55410613913f0fe85.woff2",
     "static/media/rubik-arabic-400-normal.woff2": "/static/media/rubik-arabic-400-normal.fb7a9eb9da73dfe4012d.woff2",
-    "static/media/ibm.png": "/static/media/ibm.3eeed752e14d4e22a4dc.png",
+    "static/media/ibm.png": "/static/media/ibm.c48a5adc2b56d4f6d25e.png",
     "static/media/rubik-latin-ext-400-italic.woff": "/static/media/rubik-latin-ext-400-italic.daae54c45816d997eb17.woff",
     "static/media/hack.png": "/static/media/hack.87da874d60de65d41d1f.png",
     "static/media/rubik-latin-ext-400-normal.woff": "/static/media/rubik-latin-ext-400-normal.b22669ae614939bed8f4.woff",
@@ -59,7 +59,7 @@
     "static/media/rubik-hebrew-400-normal.woff2": "/static/media/rubik-hebrew-400-normal.9f12218709f0b72dbf18.woff2",
     "index.html": "/index.html",
     "main.21b84a36.css.map": "/static/css/main.21b84a36.css.map",
-    "main.cfc176b5.js.map": "/static/js/main.cfc176b5.js.map",
+    "main.c39822aa.js.map": "/static/js/main.c39822aa.js.map",
     "reactPlayerYouTube.0985caf3.chunk.js.map": "/static/js/reactPlayerYouTube.0985caf3.chunk.js.map",
     "reactPlayerSoundCloud.ee8461ae.chunk.js.map": "/static/js/reactPlayerSoundCloud.ee8461ae.chunk.js.map",
     "reactPlayerVimeo.d0f6a3f6.chunk.js.map": "/static/js/reactPlayerVimeo.d0f6a3f6.chunk.js.map",
@@ -78,6 +78,6 @@
   },
   "entrypoints": [
     "static/css/main.21b84a36.css",
-    "static/js/main.cfc176b5.js"
+    "static/js/main.c39822aa.js"
   ]
 }
