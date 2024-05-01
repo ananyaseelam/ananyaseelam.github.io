@@ -73,7 +73,7 @@ export default function BasicTimeline() {
           <b className='timeline-subheading'>SPRING 2021</b>
           </Typography>
           <Typography>
-          <p className='timeline-text'> Started Research with Professor <a className='color-pop' href="https://www.adityavashistha.com/"> Aditya Vashista! </a>  </p> 
+          <p className='timeline-text'> Started Research with Professor <a className='color-pop' href="https://www.adityavashistha.com/"> Aditya Vashistha! </a>  </p> 
           </Typography>
           </TimelineContent>
       </TimelineItem>
