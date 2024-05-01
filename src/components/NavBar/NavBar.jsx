@@ -14,12 +14,16 @@ import { slide as SlideMenu } from 'react-burger-menu'
 
 const NavBar = () => {
   const [value, setValue] = React.useState('1');
+  // const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
 
-  const experienceDropdowns = [{}]
+  // const handleClose = () => {
+  //   setAnchorEl(null);
+  // };
+
 
   return (
     // isMobile ? (
@@ -48,43 +52,39 @@ const NavBar = () => {
         <MenuButton sx={{border: 'none',':hover': { backgroundColor: 'transparent' } }}> 
           <Link to="/experience"> <Tab value="Experience" label="experience" className="page-link" /> </Link>
           </MenuButton>
-          <Menu sx={{ ':hover': { backgroundColor: 'transparent' } }} MenuListProps={{
+          {/* <Menu sx={{ ':hover': { backgroundColor: 'transparent' } }} MenuListProps={{
             disablePadding: true
             }}>
-            <MenuItem>
+            <MenuItem sx={{backgroundColor: 'transparent' }}>
             <Link to="/google" > <Tab value="Google" label="Google" className="page-link" /> </Link>
             </MenuItem>
-            <MenuItem>
+            <MenuItem >
             <Link to="/ibm" > <Tab value="IBM" label="IBM" className="page-link" /> </Link>
             </MenuItem>
             <MenuItem>
             <Link to="/dell" > <Tab value="Dell" label="Dell" className="page-link" /> </Link>
             </MenuItem>
-          </Menu>
+          </Menu> */}
         </Dropdown>
         <Dropdown >
-        <MenuButton sx={{border: 'none',':hover': { backgroundColor: 'transparent' } }}> 
-        <Link to="/research" > <Tab value="Research" label="research" className="page-link" /> </Link>
-        </MenuButton > 
+          <MenuButton sx={{border: 'none',':hover': { backgroundColor: 'transparent' } }}> 
+            <Link to="/research" > 
+              <Tab value="Research" label="research" className="page-link" /> 
+            </Link>
+          </MenuButton > 
         </Dropdown>
-        
         <Dropdown >
         <MenuButton sx={{border: 'none',':hover': { backgroundColor: 'transparent' } }}> 
           <Link to="/social-impact" > <Tab value="Social Impact" label="Social Impact" className="page-link" /> </Link>
         </MenuButton > 
-        <Menu MenuListProps={{
-            disablePadding: true
-            }}>
-            <MenuItem>
+        {/* <Menu >
+            <MenuItem >
             <Link to="/hack4impact" > <Tab value="Hack4Impact" label="Hack4Impact" className="page-link" /> </Link>
             </MenuItem>
             <MenuItem>
             <Link to="/anabels" > <Tab value="Anabels Grocery" label="Anabels Grocery" className="page-link" /> </Link>
             </MenuItem>
-            {/* <MenuItem>
-            <Link to="/wicc" > <Tab value="WICC" label="WICC" className="page-link" /> </Link>
-            </MenuItem> */}
-          </Menu>
+          </Menu> */}
         </Dropdown>
         <Dropdown >
         <MenuButton sx={{border: 'none',':hover': { backgroundColor: 'transparent' } }}> 

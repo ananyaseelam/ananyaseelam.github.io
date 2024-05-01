@@ -11,9 +11,11 @@ import Dell from "./pages/Experiences/Dell";
 import Hack from './pages/SocialImpact/Hack';
 import Anabels from './pages/SocialImpact/Anabels';
 import WICC from './pages/SocialImpact/WICC';
+import Ableism from './pages/Research/Ableism';
+import FactChecking from './pages/Research/FactChecking';
 import NavBar from './components/NavBar/NavBar';
 import NavBar2 from './components/NavBar/NavBar2';
-
+import Footer from './components/Footer/Footer';
 import '../src/pages/Page.css';
 import { isMobile } from "react-device-detect";
 
@@ -38,8 +40,12 @@ export default function App() {
         <Route path="/hack4impact" index element={<Hack />} />
         <Route path="/anabels" index element={<Anabels />} />
         <Route path="/wicc" index element={<WICC />} />
+        {/* <Route path="/ableism-research" index element={<Ableism/>}/> */}
+        {/* <Route path="/fact-checking-research" index element={<FactChecking/>}/> */}
       </Routes>
+      {/* <Footer/> */}
     </HashRouter>
+    
   );
 }
 

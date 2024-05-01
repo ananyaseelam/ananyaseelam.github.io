@@ -6,6 +6,13 @@ import anabel from './assets/anabel.png';
 import wicc from './assets/wicc.png';
 import { Link, useHistory, useLocation } from 'react-router-dom';
 import Tab from '../../node_modules/@mui/material/Tab';
+import Divider from '@mui/material/Divider';
+
+
+const style = {
+  width: '80%',
+  marginLeft: '10%',
+};
 
 const SocialImpact = () => (
   <div className="container">
@@ -13,15 +20,16 @@ const SocialImpact = () => (
 
     <div className="content-container">
     <p className="header">Social Impact Work</p>
+    <Divider variant='middle' sx={style}/>
     <div className="two-column-layout">
-      <div className="experience-overview">
+      <div className="socialimpact-overview">
         <img src={hack} ></img>
         <div className='experience-overview-text'> 
           <Link to="/hack4impact" > <Tab value="Hack4Impact" label="Hack4Impact @ Cornell" className="experience-overview-link" /> </Link>
           <p> Led a student project team of over 60 students for one year and spent 2.5 years as a developer and technical lead, building software solutions for nonprofits such as Farmworkers Justice and the Earth Law Center. </p>
         </div>
       </div>
-      <div className="experience-overview">
+      <div className="socialimpact-overview">
         <img src={anabel} ></img>
         <div className='experience-overview-text'> 
           <Link to="/anabels" > <Tab value="Anabels" label="Anabel's Grocery @ Cornell" className="experience-overview-link" /> </Link>
