@@ -1,0 +1,35 @@
+{
+  "research": [
+  {
+    "slug": "fact-checks-rural-india",
+    "title": "\"Fact-checks are for the Top 0.1%\": Examining Reach, Awareness, and Relevance of Fact-Checking in Rural India",
+    "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW)",
+    "year": "2024",
+    "url": "https://dl.acm.org/doi/10.1145/3637333",
+    "summary": "A study examining how fact-checking organizations reach (or fail to reach) rural communities in India, given the rapid growth of internet users in rural regions and the outsized role social media plays in spreading misinformation there."
+  },
+  {
+    "slug": "ai-ableism-facct25",
+    "title": "\"Cold, Calculated, and Condescending\": How AI Identifies and Explains Ableism Compared to Disabled People",
+    "venue": "FAccT '25 — ACM Conference on Fairness, Accountability, and Transparency",
+    "year": "2025",
+    "url": "https://dl.acm.org/doi/10.1145/3715275.3732128",
+    "summary": "Curated a first-of-its-kind dataset of 200 social media comments targeting people with disabilities, then compared how AI toxicity classifiers and LLMs identify and explain ableist speech against how 190 disabled participants rated and explained the same harm."
+  }
+  ],
+  "organizations": [
+    {
+      "slug": "hack4impact-cornell",
+      "name": "Hack4Impact — Cornell Chapter",
+      "involvement": "Chapter Lead, Spring 2023 – Fall 2023",
+      "url": "https://www.cornellh4i.org/",
+      "summary": "Led a team of over 60 student developers, designers, and business members running the Cornell chapter of Hack4Impact for one year. Helped streamline processes including project handoff, new member recruitment, the DEI committee, and campus outreach."
+    }
+  ],
+  "advocacy": [
+    {
+      "title": "Citizens' Climate Lobby — Brooklyn Chapter",
+      "summary": "Active with the Brooklyn chapter since 2025. Led teach-ins on lobbying for fellow volunteers and met with state legislators to advocate for climate legislation, including the Cap, Trade, and Invest Act and the NY HEAT Act."
+    }
+  ]
+}

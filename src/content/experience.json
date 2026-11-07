@@ -1,0 +1,54 @@
+[
+  {
+    "company": "Google",
+    "role": "Software Engineer",
+    "dates": "July 2024 – Present",
+    "projects": [
+      {
+        "slug": "google-ai-mode-chrome-search",
+        "title": "AI Mode in Chrome Search",
+        "summary": "Working on bringing the power of AI Mode to Chrome Search through adding tabs as context and driving deep multimodal and multi-context queries.",
+        "languages": ["C++", "TypeScript", "Mojo/IPC"]
+      }
+    ]
+  },
+  {
+    "company": "Google",
+    "role": "Software Engineering Intern",
+    "dates": "May 2023 – Aug. 2023",
+    "projects": [
+      {
+        "slug": "google-ev-search-ui",
+        "title": "EV information on Search",
+        "summary": "On the Electric Vehicle team in Google Search, migrated a desktop UI feature on car searches from a legacy framework to a new one, more efficiently displaying EV financial incentives and charging information. Authored a detailed design document in collaboration with PM, UX design, and engineering, and developed the UI logic integrated with a high-performance C++ backend.",
+        "languages": ["JavaScript", "CSS", "Java", "C++"]
+      }
+    ]
+  },
+  {
+    "company": "IBM Research",
+    "role": "Quantum Software Developer Intern",
+    "dates": "May 2022 – Aug. 2022",
+    "projects": [
+      {
+        "slug": "ibm-quantum-health-dashboard",
+        "title": "Quantum services health dashboard",
+        "summary": "Created a dashboard displaying a graph-like diagram of the health of about 10 microservices running jobs on IBM's Quantum Computer, along with dependencies between services — empowering engineers to respond to outages by visually surfacing affected dependencies. Built full-stack with Vue.js, Node.js, Express.js, Socket.io, PostgreSQL, and the PagerDuty API, with code quality enforced via Jest and Travis CI.",
+        "languages": ["Vue.js", "Node.js", "Express.js", "Socket.io", "PostgreSQL"]
+      }
+    ]
+  },
+  {
+    "company": "Dell",
+    "role": "Software Engineer Intern",
+    "dates": "June 2021 – Sept. 2021",
+    "projects": [
+      {
+        "slug": "dell-chaos-engineering",
+        "title": "Chaos engineering for OPCC",
+        "summary": "Built a full-stack project injecting failures into Dell's On-Premise Cloud Control (OPCC) software used by Dell's APEX Cloud Services, using Chaos Engineering to test system robustness. Developed a Chaos Engine to inject failures, a responsive UI for developers to choose failure types and view detailed response logs, and a REST API server to handle data between the UI and engine. Used Litmus, a Kubernetes framework, to manage chaos workflows.",
+        "languages": ["MongoDB", "Express.js", "Angular.js", "Node.js", "Docker", "Kubernetes"]
+      }
+    ]
+  }
+]
